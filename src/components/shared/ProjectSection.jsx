@@ -56,14 +56,14 @@ export default function ProjectsSection() {
           </motion.div>
 
           <motion.div variants={itemVariants}>
-            <ProjectCard
-              title="Deshbhar Exam"
-              description="Developed and deployed a scalable Next.js-based platform that aggregates information for major government exams, enabling users to access notifications, apply for forms, and view admit cards and results through a centralized interface."
-              techStack={["Next.js", "Cron-Scheduler", "MongoDB", "Redux","JavaScript"]}
-              liveUrl="https://deshbhar-exam-demo.vercel.app/"
-              repoUrl="https://github.com/Dalakoti01/DeshbharExamDemo"
-            />
-          </motion.div>
+  <ProjectCard
+    title="Gharsewa"
+    description="Developed and deployed a full-stack real estate platform that allows users to खोज rooms, PGs, and hostels, while enabling property owners to list and manage their properties through an intuitive and responsive interface."
+    techStack={["Next.js", "Node.js", "MongoDB", "Redux", "JavaScript"]}
+    liveUrl="https://gharsewa-green.vercel.app/"
+    repoUrl="https://github.com/Dalakoti01/Roomji" // update if different
+  />
+</motion.div>
 
           
         </motion.div>
